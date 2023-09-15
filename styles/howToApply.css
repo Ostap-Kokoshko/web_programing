@@ -1,0 +1,47 @@
+#appliance {
+    width: 1233px;
+    height: 679px;
+    margin-left: 134px;
+    display: flex;
+    margin-bottom: 54px;
+    justify-content: center;
+    align-content: center;
+}
+
+#appliance__image {
+    width: 720px;
+    height: 679px;
+}
+
+#appliance__info {
+    max-width: 50%;
+    flex-shrink: 1;
+    margin-top: 101px;
+}
+
+#appliance__info__text {
+    width: 455px;
+    height: 287px;
+    color: #402B2B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#appliance__info__title {
+    display: flex;
+    width: 265px;
+    height: 50px;
+    flex-direction: column;
+    color: #EE4D47;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}

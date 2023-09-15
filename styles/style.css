@@ -1,0 +1,11 @@
+@import "header.css";
+@import "footer.css";
+@import "aboutUs.css";
+@import "howToApply.css";
+@import "clients.css";
+
+body {
+    max-width: 1600px;
+    background-color: #FEF8F5;
+    margin: 0 auto;
+}

@@ -1,0 +1,132 @@
+header {
+    height: 1022px;
+    background-image: url("/images/mainBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+#header__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#header__upper__nav {
+    height: 60px;
+    width: 720px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.header__upper__logo {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    background: url(/images/logo.png) no-repeat;
+    background-size: 47px 50px;
+    background-position: left;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-right: 265px;
+    margin-left: -80px;
+}
+
+#header__upper__nav__button {
+    background-color: #EE4D47;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 158px;
+    margin-left: auto;
+    margin-right: 6%;
+    margin-top: -3px;
+}
+
+#header__upper__nav__button:hover {
+    background-color: #cc211b;
+    transition: 0.7s;
+    box-shadow: 0 0 0 4px #73120f;
+}
+
+#header__upper__nav__button__text {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#header__center {
+    display: flex;
+    width: 741px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'DM Serif Display', serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 86px;
+    margin-top: 80px;
+}
+
+.header__upper__nav__text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    flex: 2;
+}
+
+.header__upper__nav__text:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+#header__lower {
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #EE4D47;
+    display: flex;
+    margin-left: 84px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header__lower:hover {
+    background-color: #cc211b;
+    transition: 0.7s;
+    box-shadow: 0 0 0 4px #73120f;
+}
+
+#header__lower__text {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.truck {
+    margin-left: -300px;
+    margin-top: 100px;
+}
