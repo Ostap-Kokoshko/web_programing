@@ -3,10 +3,64 @@
 @import "aboutUs.css";
 @import "howToApply.css";
 @import "clients.css";
+@import "flip-card.css";
 
+:root {
+    --color-dark: #111b47;
+    --color-font-dark: #091133;
+
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
+}
 
 body {
     max-width: 100%;
     background-color: #FEF8F5;
     margin: 0 auto;
+}
+
+.container,
+.container__animation {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.container__no__animation {
+    margin: 0 auto;
+    max-width: 1600px;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    .container__animation {
+        display: none;
+    }
+
+    .container__no__animation {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px){
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .container,
+    .container__no__animation {
+        padding: 0px 12px;
+    }
 }

@@ -1,12 +1,11 @@
-#clients {
-    width: 1300px;
-    height: 540px;
-    margin: auto;
+.clients {
+    width: 82%;
+    margin: 0 auto;
     border-radius: 10px;
     margin-bottom: 184px;
 }
 
-#clients__about__us__title {
+.clients__about__us__title {
     width: 166px;
     height: 50px;
     margin: auto;
@@ -17,19 +16,19 @@
     color: #EE4D47;
 }
 
-#clients__title {
+.clients__title {
     width: 453px;
     height: 67px;
     margin: auto;
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 67.2px;
     color: #402B2B;
     margin-bottom: 50px;
 }
 
-#clients__boxes {
+.clients__boxes {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -37,7 +36,7 @@
 
 .client__box {
     background-color: #FFFFFF;
-    width: 420px;
+    width: 31%;
     height: 360px;
     border-radius: 10px;
     display: flex;
@@ -48,7 +47,7 @@
 }
 
 .client__box__text {
-    width: 320px;
+    width: 71%;
     height: 140px;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -81,4 +80,62 @@
     color: #402B2B;
     margin: auto;
     font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .clients {
+        margin: 0 auto;
+    }
+
+    .clients__boxes {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .client__box {
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .client__box__info {
+        width: 100%;
+        height: auto;
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-direction: column;
+    }
+
+    .client__box__text {
+        width: 90%;
+        height: auto;
+    }
+
+    .clients__title {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .truck {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .clients {
+        flex-direction: column;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .clients {
+        transform: scale(1.4);
+        margin-top: 10rem;
+    }
 }
