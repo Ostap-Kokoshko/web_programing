@@ -4,8 +4,9 @@
 @import "howToApply.css";
 @import "clients.css";
 
+
 body {
-    max-width: 1600px;
+    max-width: 100%;
     background-color: #FEF8F5;
     margin: 0 auto;
 }
